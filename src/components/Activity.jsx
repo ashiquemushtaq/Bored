@@ -9,7 +9,7 @@ const Activityy = ()=> {
     },[])
 
     const fetchData = async ()=>{
-        const res = await fetch('http://www.boredapi.com/api/activity/')
+        const res = await fetch('https://www.boredapi.com/api/activity/')
         setActivity(await res.json())
     }
 
