@@ -1,0 +1,28 @@
+section{
+    height: calc(100vh - 67px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    background-color: #393E46;
+    width: auto;
+    padding: 2.5rem 7rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: #52FFA8;
+}
+
+span{
+    color: #ffff;
+}
+
+@media only screen and (max-width: 590px){
+    .card{
+        padding: 1rem 5rem;
+    }
+}

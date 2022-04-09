@@ -1,0 +1,92 @@
+nav{
+    background-color: #393E46;
+    padding: 1rem 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #52FFA8;
+}
+
+.logo{
+    color: #52FFA8;
+}
+
+section{
+    height: calc(100vh - 67px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    background-color: #393E46;
+    width: auto;
+    padding: 2.5rem 7rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.top{
+    font-size: 24px;
+    font-weight: 700;
+    color: #52FFA8;
+    margin-bottom: 15px;
+}
+
+.bottom{
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffff;
+    margin-bottom: 25px;
+}
+
+.controls{
+    display: flex;
+    justify-content: center;
+    gap:50px;
+    align-items: center;
+}
+
+button{
+    background-color: #52FFA8;
+    width: 110px;
+    padding: 5px;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    font-size: 500;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+select{
+    background-color:#52FFA8;
+    padding: 5px;
+    width: 110px;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    font-size: 500;
+}
+
+select:hover{
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 590px){
+   
+    nav{
+        padding:1rem 1.2rem;
+    }
+    
+   section{
+        padding: 1rem 1.2rem;
+   } 
+    .card{
+        padding: 1rem 5rem;
+    }
+}
