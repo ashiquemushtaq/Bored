@@ -20,7 +20,6 @@ section{
 
 .card{
     background-color: #393E46;
-    width: auto;
     padding: 2.5rem 7rem;
     display: flex;
     flex-direction: column;
