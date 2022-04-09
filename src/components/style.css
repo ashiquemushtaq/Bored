@@ -20,7 +20,6 @@ section{
 
 .card{
     background-color: #393E46;
-    width: auto;
     padding: 2.5rem 7rem;
     display: flex;
     flex-direction: column;
@@ -46,10 +45,9 @@ section{
     display: flex;
     justify-content: center;
     gap:50px;
-    align-items: center;
 }
 
-button{
+.btn{
     background-color: #52FFA8;
     width: 110px;
     padding: 5px;
@@ -59,7 +57,7 @@ button{
     font-size: 500;
 }
 
-button:hover{
+.btn:hover{
     cursor: pointer;
 }
 
@@ -88,5 +86,19 @@ select:hover{
    } 
     .card{
         padding: 1rem 5rem;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .controls{
+        flex-direction: column;
+    }
+
+    .btn{
+        width: 100%;
+    }
+
+    select{
+        width: 100%;
     }
 }
