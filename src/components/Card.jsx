@@ -9,7 +9,7 @@ const Card = ()=>{
                 <span className="top">Ready to kill your<br />boredom 🍻</span>
                 <span className="bottom">Get a task</span>
                 <div className="controls">
-                <Link to="/activity"><button>Random</button></Link>
+                <Link to="/activity"><button className="btn">Random</button></Link>
                 <select>
                     <option value="">Select Type</option>
                     <option value="education">Education</option>

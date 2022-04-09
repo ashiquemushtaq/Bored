@@ -108,4 +108,8 @@ select:hover{
     select{
         width: 100%;
     }
+    
+    .card{
+        padding:1rem 2rem;
+    }
 }
