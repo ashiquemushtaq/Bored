@@ -91,3 +91,9 @@ select:hover{
         padding: 1rem 5rem;
     }
 }
+
+@media only screen and (max-width: 500px){
+    .card{
+        padding:1rem 3rem;
+    }
+}
