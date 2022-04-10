@@ -1,8 +1,16 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { Link } from "react-router-dom";
 import './style.css';
 
 const Card = ()=>{
+    
+    const [isActive,setActive] = useState(false);
+
+    const toggleMenu = ()=>{
+        setActive(!isActive);
+        console.log(isActive);
+    }
+
     return(
         <section>
             <div className="card">
@@ -10,18 +18,21 @@ const Card = ()=>{
                 <span className="bottom">Get a task</span>
                 <div className="controls">
                 <Link to="/activity"><button className="btn">Random</button></Link>
-                <select>
-                    <option value="">Select Type</option>
-                    <option value="education">Education</option>
-                    <option value="recreational">Recreational</option>
-                    <option value="social">Social</option>
-                    <option value="diy">DIY</option>
-                    <option value="charity">Charity</option>
-                    <option value="cooking">Cooking</option>
-                    <option value="relaxation">Relaxation</option>
-                    <option value="music">Music</option>
-                    <option value="busywork">Busywork</option>
-                </select>
+                <span>OR</span>
+                <div className="drop-down">
+                    <button className="btn menu-pa" onClick={toggleMenu}>Select Type &#8595;</button>
+                    <ul className={isActive ? 'active':'type-menu'}>
+                        <Link to={'/activity/education'} style={{textDecoration:"none"}}><li>Eduction</li></Link>
+                        <Link to={'/activity/recreational'} style={{textDecoration:"none"}}><li>Recreational</li></Link>
+                        <Link to={'/activity/Social'} style={{textDecoration:"none"}}><li>Social</li></Link>
+                        <Link to={'/activity/diy'} style={{textDecoration:"none"}}><li>DIY</li></Link>
+                        <Link to={'/activity/charity'} style={{textDecoration:"none"}}><li>Charity</li></Link>
+                        <Link to={'/activity/cooking'} style={{textDecoration:"none"}}><li>Cooking</li></Link>
+                        <Link to={'/activity/relaxation'} style={{textDecoration:"none"}}><li>Relaxation</li></Link>
+                        <Link to={'/activity/music'} style={{textDecoration:"none"}}><li>Music</li></Link>
+                        <Link to={'/activity/busywork'} style={{textDecoration:"none"}}><li>Busywork</li></Link>               
+                    </ul>
+                </div>
                 </div>
             </div>
         </section>

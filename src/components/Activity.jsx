@@ -16,7 +16,7 @@ const Activityy = ()=> {
     return(
         <section>
             <div className="card">
-                <h1>{activity.activity}</h1>
+                <h1>"{activity.activity}"</h1>
                 <h3>Type:<span>{activity.type}</span></h3>
                 <h4>Participants:<span>{activity.participants}</span></h4>
             </div>
