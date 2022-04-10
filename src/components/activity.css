@@ -18,6 +18,14 @@ section{
 
 span{
     color: #ffff;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+a{
+    color: #ffff;
+    font-weight: 600;
+    font-size: 17px;
 }
 
 @media only screen and (max-width: 590px){

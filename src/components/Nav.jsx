@@ -6,7 +6,7 @@ import {faGithub} from '@fortawesome/free-brands-svg-icons';
 const Nav = ()=> {
     return(
         <nav>
-            <Link style={{textDecoration:'none'}} to='/'><h1 className='logo'>Bored?</h1></Link>
+            <h1 className='logo'>Bored?</h1>
             <a
             href="https://github.com/ashiquemushtaq"
             target="_blank"

@@ -18,6 +18,10 @@ section{
     align-items: center;
 }
 
+.back{
+    margin: 1rem 3rem;
+}
+
 .card{
     background-color: #393E46;
     padding: 2.5rem 7rem;
@@ -100,7 +104,12 @@ li:hover{
     
    section{
         padding: 1rem 1.2rem;
-   } 
+   }
+
+   .back{
+       margin: 1rem 1.2rem;
+   }
+
     .card{
         padding: 1rem 5rem;
     }
@@ -117,6 +126,10 @@ li:hover{
         width: 100%;
     }
 
+    .back{
+        width: 110px;
+    }
+
     select{
         width: 100%;
     }
@@ -126,8 +139,6 @@ li:hover{
     }
     
     ul{
-        /* .btn{
-            width: 100%;
-        } */
+        width: 42%;
     }
 }
