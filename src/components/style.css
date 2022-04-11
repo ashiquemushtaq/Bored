@@ -1,14 +1,14 @@
 nav{
-    background-color: #393E46;
+    background-color: #143F6B;
     padding: 1rem 3rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: #52FFA8;
+    color: #F55353;
 }
 
 .logo{
-    color: #52FFA8;
+    color: #F55353;
 }
 
 section{
@@ -23,7 +23,7 @@ section{
 }
 
 .card{
-    background-color: #393E46;
+    background-color: #143F6B;
     padding: 2.5rem 7rem;
     display: flex;
     flex-direction: column;
@@ -34,7 +34,7 @@ section{
 .top{
     font-size: 24px;
     font-weight: 700;
-    color: #52FFA8;
+    color: #F55353;
     margin-bottom: 15px;
 }
 
@@ -52,7 +52,7 @@ section{
 }
 
 .btn{
-    background-color: #52FFA8;
+    background-color: #F55353;
     width: 110px;
     padding: 5px;
     outline: none;
@@ -72,7 +72,7 @@ section{
 ul{
     display: none;
     position: absolute;
-    background-color: #52FFA8;
+    background-color: #F55353;
     list-style: none;
     margin-top: 10px;
     border-radius: 6px;
