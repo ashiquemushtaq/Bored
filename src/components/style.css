@@ -12,7 +12,7 @@ nav{
 }
 
 section{
-    height: calc(100vh - 67px);
+    height: calc(100vh - 108px);
     display: flex;
     justify-content: center;
     align-items: center;
