@@ -19,7 +19,7 @@ const Activityy = ()=> {
         <>
         <Link style={{textDecoration:'none'}} to='/'>
         <button className="btn back">Back</button></Link>
-        <section>
+        <section className="activity">
             <div className="card">
                 <h1>"{activity.activity}"</h1>
                 <h3>Type:<span>{activity.type}</span></h3>

@@ -1,18 +1,10 @@
-section{
-    height: calc(100vh - 108px);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0rem 3rem;
+.activity{
+    height: calc(100vh - 129px);
+    padding: 1rem 3rem;
 }
 
 .card{
-    background-color: #143F6B;
-    padding: 2.5rem 7rem;
-    display: flex;
-    flex-direction: column;
     gap: 10px;
-    border-radius: 5px;
     color: #F55353;
 }
 
@@ -26,14 +18,4 @@ a{
     color: #ffff;
     font-weight: 600;
     font-size: 17px;
-}
-
-@media only screen and (max-width: 590px){
-    .card{
-        padding: 1rem 5rem;
-    }
-
-    section{
-        padding: 1rem 1.2rem;
-   }
 }

@@ -12,10 +12,11 @@ nav{
 }
 
 section{
-    height: calc(100vh - 108px);
+    height:calc(100vh - 67px);
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 1rem 3rem;
 }
 
 .back{
@@ -65,24 +66,27 @@ section{
     cursor: pointer;
 }
 
-.menu-parent{
+.drop-down{
     position: relative;
 }
 
 ul{
-    display: none;
+    visibility: hidden;
     position: absolute;
     background-color: #F55353;
     list-style: none;
     margin-top: 10px;
     border-radius: 6px;
-    padding: 10px;
-    transition:	opacity .3s ease-in-out,visibility .3s ease-in-out,max-height .2s ease-in-out,margin-bottom .3s ease-in-out;
+    padding: 5px;
+    transform: translateY(-2rem);
+    transition:	all 0.4s ease 0s, visibility 0s linear 0.3s;
+    width: 100%;
 }
 
 .active{
-    display: block;
-    /* transition: max-height 1s; */
+    visibility: visible;
+    transform: translateY(0);
+    transition-delay: 0s,0s,0.3s;
 }
 
 li{
@@ -136,9 +140,5 @@ li:hover{
     
     .card{
         padding:3rem;
-    }
-    
-    ul{
-        width: 42%;
     }
 }
