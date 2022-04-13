@@ -142,7 +142,7 @@ li:hover{
         padding:3rem;
     }
     
-    ul{
+    .active{
         margin-bottom: 1.5rem;
     }
 }
