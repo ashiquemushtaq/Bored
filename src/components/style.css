@@ -87,6 +87,7 @@ ul{
     visibility: visible;
     transform: translateY(0);
     transition-delay: 0s,0s,0.3s;
+    margin-bottom: 1.5rem;
 }
 
 li{
@@ -140,9 +141,5 @@ li:hover{
     
     .card{
         padding:3rem;
-    }
-    
-    .active{
-        margin-bottom: 1.5rem;
     }
 }
