@@ -141,4 +141,8 @@ li:hover{
     .card{
         padding:3rem;
     }
+    
+    ul{
+        margin-bottom: 1.5rem;
+    }
 }
