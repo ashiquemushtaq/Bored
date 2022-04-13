@@ -19,3 +19,13 @@ a{
     font-weight: 600;
     font-size: 17px;
 }
+
+@media only screen and (max-width: 590px){
+    .activity{
+        padding: 1rem 1.2rem;
+    }
+
+    ul{
+        margin-bottom: 1.5rem;
+    }
+}
