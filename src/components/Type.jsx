@@ -10,7 +10,7 @@ const Activityy = ()=> {
     },[])
 
     const fetchData = async ()=>{
-        const res = await fetch(`https://www.boredapi.com/api/activity?type=${tp}`)
+        const res = await fetch(`https://bored-api.appbrewery.com/filter?type=${tp}`)
         setActivity(await res.json())
         console.log(tp)
     }
